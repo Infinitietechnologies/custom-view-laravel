@@ -1,0 +1,29 @@
+{
+    "name": "vendor/custom-view",
+    "description": "A package to generate, delete, move, and manage custom view files in Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harshad Pindoriya",
+            "email": "infinitietechnologies05@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "illuminate/support": "^8.0|^9.0|^10.0",
+        "illuminate/console": "^10.48"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vendor\\CustomView\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vendor\\CustomView\\CustomViewServiceProvider"
+            ]
+        }
+    }
+}
