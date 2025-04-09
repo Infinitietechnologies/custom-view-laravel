@@ -48,7 +48,7 @@ composer require infinitietech/custom-view-laravel
 php artisan make:custom-view blog.index
 
 # Create a view with specific type
-php artisan make:custom-view blog.show --type=resource
+php artisan make:custom-view blog --type=resource
 ```
 
 ### Layout and Sections
