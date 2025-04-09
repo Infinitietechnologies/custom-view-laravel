@@ -12,6 +12,7 @@
     ],
     "require": {
         "php": "^7.4|^8.0",
+        "illuminate/console": "^12.8",
         "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0"
     },
     "autoload": {
