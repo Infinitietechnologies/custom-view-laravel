@@ -1,9 +1,9 @@
 <?php
 
-namespace Vendor\CustomView;
+namespace Acme\CustomView;
 
 use Illuminate\Support\ServiceProvider;
-use Vendor\CustomView\Commands\MakeCustomView;
+use Acme\CustomView\Commands\MakeCustomView;
 
 class CustomViewServiceProvider extends ServiceProvider
 {

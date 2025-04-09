@@ -20,18 +20,19 @@
     },
     "autoload": {
         "psr-4": {
-            "InfinitieTechnologies\\CustomView\\": "src/"
+            "Acme\\ViewGenerator\\": "src/",
+            "Acme\\CustomView\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "InfinitieTechnologies\\CustomView\\Tests\\": "tests/"
+            "Acme\\ViewGenerator\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "InfinitieTechnologies\\CustomView\\CustomViewServiceProvider"
+                "Acme\\CustomView\\CustomViewServiceProvider"
             ]
         }
     },
