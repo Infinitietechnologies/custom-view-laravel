@@ -131,7 +131,7 @@ php artisan make:custom-view admin.dashboard --type=blank --extend=layouts.admin
 Publish the configuration file:
 
 ```bash
-php artisan vendor:publish --provider="InfinitieTechnologies\CustomView\CustomViewServiceProvider"
+php artisan vendor:publish --provider="infinitietech\CustomView\CustomViewServiceProvider"
 ```
 
 This will create a `config/custom-view.php` file where you can modify various settings:
