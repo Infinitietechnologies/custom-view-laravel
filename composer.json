@@ -1,5 +1,5 @@
 {
-    "name": "infinitietechnologies/custom-view-laravel",
+    "name": "infinitietech/custom-view-laravel",
     "description": "A powerful and flexible Laravel package that extends the default view generation capabilities with customizable templates, layouts, and file management features",
     "type": "library",
     "license": "MIT",
