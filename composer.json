@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Acme\\CustomView\\CustomViewServiceProvider"
+                "Infinitietech\\CustomView\\CustomViewServiceProvider"
             ]
         }
     },
