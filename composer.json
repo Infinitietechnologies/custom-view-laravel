@@ -31,7 +31,7 @@
         "issues": "https://github.com/Infinitietechnologies/custom-view-laravel/issues",
         "source": "https://github.com/Infinitietechnologies/custom-view-laravel"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "config": {
         "sort-packages": true
