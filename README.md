@@ -36,7 +36,7 @@ A powerful and flexible Laravel package that extends the default view generation
 You can install the package via composer:
 
 ```bash
-composer require infinitietechnologies/custom-view-laravel
+composer require infinitietech/custom-view-laravel
 ```
 
 ## 🔧 Usage
