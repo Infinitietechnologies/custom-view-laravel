@@ -9,6 +9,14 @@
             "email": "infinitietechnologies05@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/infinitietechnologies/custom-view-laravel"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": ">=7.3",
         "illuminate/support": "^8.0|^9.0|^10.0",
