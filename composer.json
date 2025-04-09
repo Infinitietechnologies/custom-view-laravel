@@ -6,7 +6,7 @@
     "authors": [
         {
             "name": "infinitietech05",
-            "email": "your.email@infinitietechnologies.com",
+            "email": "security@infinitietechnologies.com",
             "role": "Developer"
         }
     ],
@@ -20,13 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Acme\\ViewGenerator\\": "src/",
             "Acme\\CustomView\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Acme\\ViewGenerator\\Tests\\": "tests/"
+            "Acme\\CustomView\\Tests\\": "tests/"
         }
     },
     "extra": {
@@ -35,6 +34,11 @@
                 "Acme\\CustomView\\CustomViewServiceProvider"
             ]
         }
+    },
+    "homepage": "https://github.com/Infinitietechnologies/custom-view-laravel",
+    "support": {
+        "issues": "https://github.com/Infinitietechnologies/custom-view-laravel/issues",
+        "source": "https://github.com/Infinitietechnologies/custom-view-laravel"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
