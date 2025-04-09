@@ -71,20 +71,6 @@ class MakeCustomView extends Command
 
     private function handleManagement(string $manage, string $name, ?string $from, ?string $to)
     {
-        if (!function_exists('resource_path')) {
-            /**
-             * Get the path to the resources folder.
-             *
-             * @param  string  $path
-             * @return string
-             */
-            function resource_path($path = '')
-            {
-                // Assume the current working directory is the base path.
-                return getcwd() . DIRECTORY_SEPARATOR . 'resources' . ($path ? DIRECTORY_SEPARATOR . $path : $path);
-            }
-        }
-
 
         $viewPath = resource_path('views/' . str_replace('.', '/', $name) . '.blade.php');
 

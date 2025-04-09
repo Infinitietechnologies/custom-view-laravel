@@ -1,1 +1,6 @@
-vendor/*
+/vendor
+/node_modules
+/coverage
+.phpunit.result.cache
+composer.lock
+.DS_Store

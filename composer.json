@@ -1,37 +1,54 @@
 {
-    "name": "vendor/custom-view",
-    "description": "A package to generate, delete, move, and manage custom view files in Laravel.",
+    "name": "infinitietechnologies/custom-view-laravel",
+    "description": "A powerful and flexible Laravel package that extends the default view generation capabilities with customizable templates, layouts, and file management features",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Harshad Pindoriya",
-            "email": "infinitietechnologies05@gmail.com"
+            "name": "infinitietech05",
+            "email": "your.email@infinitietechnologies.com",
+            "role": "Developer"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/infinitietechnologies/custom-view-laravel"
-        }
-    ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "require": {
-        "php": ">=7.3",
-        "illuminate/support": "^8.0|^9.0|^10.0",
-        "illuminate/console": "^10.48"
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0|^7.0|^8.0",
+        "phpunit/phpunit": "^9.0|^10.0"
     },
     "autoload": {
         "psr-4": {
-            "Vendor\\CustomView\\": "src/"
+            "InfinitieTechnologies\\CustomView\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "InfinitieTechnologies\\CustomView\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Vendor\\CustomView\\CustomViewServiceProvider"
+                "InfinitieTechnologies\\CustomView\\CustomViewServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "keywords": [
+        "laravel",
+        "views",
+        "blade",
+        "templates",
+        "generator"
+    ]
 }
