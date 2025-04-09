@@ -17,13 +17,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Acme\\CustomView\\": "src/"
+            "Infinitietech\\CustomView\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Acme\\CustomView\\CustomViewServiceProvider"
+                "Infinitietech\\CustomView\\CustomViewServiceProvider"
             ]
         }
     },

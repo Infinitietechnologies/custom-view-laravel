@@ -1,9 +1,9 @@
 <?php
 
-namespace Acme\CustomView;
+namespace Infinitietech\CustomView;
 
 use Illuminate\Support\ServiceProvider;
-use Acme\CustomView\Commands\MakeCustomView;
+use Infinitietech\CustomView\Commands\MakeCustomView;
 
 class CustomViewServiceProvider extends ServiceProvider
 {

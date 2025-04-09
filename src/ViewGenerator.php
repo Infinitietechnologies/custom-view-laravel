@@ -1,6 +1,6 @@
 <?php
 
-namespace Acme\CustomView;
+namespace Infinitietech\CustomView;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;

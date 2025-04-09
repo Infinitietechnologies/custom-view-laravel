@@ -1,6 +1,6 @@
 <?php
 
-namespace Acme\CustomView\Commands;
+namespace Infinitietech\CustomView\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
