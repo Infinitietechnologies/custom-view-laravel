@@ -9,7 +9,7 @@ use InvalidArgumentException;
 /**
  * View Generator for Laravel Custom Views
  *
- * @author infinitietech05 <your.email@infinitietechnologies.com>
+ * @author infinitietech05 infinitietechnologies05@gmail.com
  * @package infinitietechnologies/custom-view-laravel
  * @created 2025-04-09 08:13:57
  */
