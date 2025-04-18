@@ -2,7 +2,7 @@
 
 [![PHP Version](https://img.shields.io/badge/PHP->=7.4-777BB4.svg?style=flat-square)](https://php.net/)
 [![Laravel Version](https://img.shields.io/badge/Laravel->=8.0-FF2D20.svg?style=flat-square)](https://laravel.com)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/infinitietech/custom-view-laravel.svg?style=flat-square)](https://packagist.org/packages/infinitietechnologies/custom-view-laravel)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/infinitietech/custom-view-laravel.svg?style=flat-square)](https://packagist.org/packages/infinitietech/custom-view-laravel)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Maintainer](https://img.shields.io/badge/maintainer-@infinitietech05-blue.svg?style=flat-square)](https://github.com/infinitietech05)
 
